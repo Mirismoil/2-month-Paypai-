@@ -1,0 +1,147 @@
+.section-work {
+  background-color: #1b262f;
+  background-image: url("../../images/wokrbeckround.svg");
+  background-repeat: no-repeat;
+}
+.box-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 0px 0px 0px;
+}
+.box-work__left {
+  width: 858px;
+  margin-right: 32px;
+  margin-bottom: 155px;
+}
+.box-work__left > h2 {
+  font-family: "DM Serif Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #fbfcfe;
+}
+.box-work__left > p {
+  padding-bottom: 32px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fbfcfe;
+  opacity: 0.7;
+}
+.box-work__link {
+  padding: 16px 32px 14px 32px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+}
+.box-work__link:hover {
+  background: #ffffff;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+  color: #1b262f;
+}
+.box-work__link:active {
+  background: #1b262f;
+  border: 1px solid #fbfcfe5d;
+  border-radius: 24px;
+  color: #fbfcfe;
+}
+.box-wokr-right {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.box-wokr_img {
+  margin-right: 51px;
+  margin-bottom: 54px;
+}
+
+@media only screen and(max-width:1091px) {
+  .box-wokr_img {
+    margin-right: 19px;
+    margin-bottom: 54px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .section-work {
+    background-color: #1b262f;
+    background-image: url("../../images/tabletwork.svg");
+    background-repeat: no-repeat;
+    background-position: 60px 0px;
+  }
+  .box-work {
+    padding-top: 93px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .box-wokr-right {
+    width: 536px;
+  }
+  .box-wokr_img {
+    margin-right: 40px;
+  }
+  .box-work__left {
+    text-align: center;
+    width: 456px;
+  }
+  @media only screen and(max-width:781px) {
+    .section-work {
+      background-position: -3px 0px;
+    }
+  }
+  @media only screen and(max-width:653px) {
+    .section-work {
+      background-color: #1b262f;
+      background-image: url("../../images/herormobile.svg");
+      background-repeat: no-repeat;
+      background-position: 0px -27px;
+      background-size: 100%;
+    }
+    .box-wokr_img {
+      margin-right: 37px;
+    }
+    .box-work__left {
+      margin-right: 0px;
+    }
+    .box-wokr-right {
+      width: 356px;
+    }
+  }
+  @media only screen and(max-width:507px) {
+    .section-work {
+      width: 106%;
+    }
+    .box-wokr-right {
+      width: 348px;
+    }
+    .box-work__left {
+      width: 70%;
+    }
+  }
+  @media only screen and(max-width:489px) {
+    .section-work {
+      width: 120%;
+    }
+  }
+  @media only screen and(max-width:393px) {
+    .section-work {
+      width: 140%;
+    }
+  }
+  @media only screen and(max-width:339px) {
+    .section-work {
+      width: 160%;
+    }
+  }
+}
