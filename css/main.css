@@ -810,4 +810,29 @@ img {
   .section-work {
     width: 160%;
   }
+}
+.top-implement {
+  display: flex;
+  align-items: center;
+}
+
+.wpapper-implement__text {
+  width: 445px;
+}
+
+.wpapper-implement__text > h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+.wpapper-implement__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
 }/*# sourceMappingURL=main.css.map */
