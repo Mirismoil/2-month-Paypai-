@@ -1,9 +1,20 @@
+
+.section-implement{
+  background-image: url("../../images/homesectioniphone-bj.svg");
+  background-repeat: no-repeat;
+  background-position: 1035px ;
+  margin-bottom: 6px;
+}
+.box-implement{
+  margin-top: 150px;
+}
 .top-implement {
   display: flex;
   align-items: center;
 }
-.wpapper-implement__text{
-    width: 445px;
+.wpapper-implement__text {
+  width: 445px;
+  margin-left: 125px;
 }
 .wpapper-implement__text > h3 {
   font-style: normal;
@@ -19,4 +30,73 @@
   font-size: 15px;
   line-height: 28px;
   color: #6c8294;
+}
+.bottom-implement{
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-implement__text{
+  width: 445px;
+  margin-right: 98px;
+}
+.bottom-implement__text > h3 {
+  font-family: "DM Serif Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+.bottom-implement__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+@media only screen and(max-width:937px){
+  .section-implement{
+    background-image: none;
+  }
+  .top-implement{
+    flex-direction: column;
+  }
+  .bottom-implement{
+    flex-direction: column-reverse;
+  }
+  .wpapper-implement__text{
+    margin-left: 0;
+    width: 573px;
+    text-align: center;
+  }
+  .bottom-implement__text{
+    margin-right:0;
+    width: 573px;
+    text-align: center;
+  }
+}
+@media only screen and(max-width:591px){
+  .box-implement{
+    width: 100%;
+    // margin-left: 100px;
+  }
+  .top-img{
+   width: 328px;
+  }
+  .bottom_img{
+    width: 328px;
+    height: 290px;
+  }
+  .wpapper-implement__text{   
+    width: 328px;
+    text-align: center;
+  }
+  .bottom-implement__text{
+    width: 328px;
+    text-align: center;
+  }
+
 }

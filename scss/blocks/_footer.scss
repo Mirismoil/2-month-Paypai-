@@ -1,0 +1,91 @@
+.site-footer {
+  background-color: #1b262f;
+  background-image: url("../../images/footetimg.svg");
+  background-repeat: no-repeat;
+  background-position: 769px -23px;
+  background-size: 100%;
+}
+.footer-inner {
+  padding: 31px 0 31px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapp-left {
+  display: flex;
+  align-items: center;
+}
+.footer-list {
+  margin: 0;
+  padding: 0;
+  margin-left: 65px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.footer-list__title + .footer-list__title {
+  margin-left: 40px;
+}
+.list-title__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fbfcfe;
+  opacity: 0.7;
+  text-decoration: none;
+}
+// hover berdim rang bilinmidi etibor berip qarash kerak
+.list-title__link:hover {
+  color: #fbfcfe;
+}
+.list-title__link:active {
+  color: gray;
+}
+.footer-imgs__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.footer-imgs__title + .footer-imgs__title {
+  margin-left: 24px;
+}
+svg path:hover {
+  fill: crimson;
+}
+svg path:active {
+  fill: yellowgreen;
+}
+
+@media only screen and(max-width:753px) {
+  .site-footer {
+    margin-top: 100px;
+    background-image: url("../../images/foterbhtable.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 769px -23px;
+  }
+  .footer-inner{
+    justify-content: space-around;
+  }
+}
+
+
+
+
+
+@media only screen and(max-width:571px){
+  .footer-inner{
+    flex-direction: column;
+  }
+  .wrapp-left{
+    flex-direction: column;
+  }
+  .footer-list{
+    flex-direction: column;
+  }
+.wrapp-left{
+  text-align: center;
+  width: 135px;
+}
+}

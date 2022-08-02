@@ -53,6 +53,10 @@ body {
     background-position: 0px -17px;
     background-size: 116%;
   }
+  @media only screen and(max-width:401px) {
+    .wrapper-hero__text {
+      margin-left: 80px;
+    }
   @media only screen and(max-width:390px) {
     background-image: url("../images/headermobile.svg");
     background-repeat: no-repeat;
@@ -63,10 +67,6 @@ body {
       background-size: 162%;
   }
 }
-@media only screen and(max-width:401px) {
-  .wrapper-hero__text {
-    margin-left: 80px;
-  }
 }
 img {
   object-fit: cover;
